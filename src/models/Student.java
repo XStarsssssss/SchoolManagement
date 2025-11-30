@@ -12,13 +12,17 @@ public class Student extends User {
         super(id, name, email, password);
         this.age = age;
         this.grade = grade;
-        this.className = className;
         this.subjects = subjects;
     }
 
-    public int getAge() { return age; }
-    public int getGrade() { return grade; }
-    public String getClassName() { return className; }
+    public int getage() {
+        return age;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
     public List<String> getSubjects() { return subjects; }
 
     @Override

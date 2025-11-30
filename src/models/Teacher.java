@@ -15,9 +15,12 @@ public class Teacher extends User {
         this.phone = phone;
     }
 
-    public List<String> getSubjects() { return subjects; }
-    public String getClassName() { return className; }
-    public String getPhone() { return phone; }
+    public List<String> getSubjects() {
+        return subjects;
+    }
+
+
+
 
     @Override
     public String toString() {

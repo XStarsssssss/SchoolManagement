@@ -17,12 +17,13 @@ public class Syllabus {
         this.description = description;
     }
 
-    public int getId() { return id; }
-    public int getTeacherId() { return teacherId; }
-    public String getClassName() { return className; }
-    public String getSubject() { return subject; }
-    public String getTitle() { return title; }
-    public String getDescription() { return description; }
+    public int getTeacherId() {
+        return teacherId;
+    }
+
+    public String getClassName() {
+        return className;
+    }
 
     @Override
     public String toString() {
