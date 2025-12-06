@@ -21,9 +21,7 @@ public class FakeDatabase {
     public static final String ADMIN_EMAIL = "admin";
     public static final String ADMIN_PASSWORD = "admin";
 
-    static {
-        for (int i = 1; i <= 12; i++) classes.add("Grade-" + i);
-    }
+
 }
 
 

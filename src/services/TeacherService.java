@@ -72,7 +72,7 @@ public class TeacherService {
 
     public static void showTeacherAccountInfo(Teacher t) {
         System.out.println("Tr Name - " + t.getName());
-        System.out.println("Show All Class: " + String.join(", ", FakeDatabase.classes));
+        System.out.println("Show All Class: " + String.join(", ", t.getclassName()));
         System.out.println("Show All Subject: " + String.join(" , ", t.getSubjects()));
         System.out.println("========================================================================");
         System.out.println();

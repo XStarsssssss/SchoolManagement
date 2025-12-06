@@ -18,6 +18,10 @@ public class Teacher extends User {
     public List<String> getSubjects() {
         return subjects;
     }
+    public String  getclassName() {
+        return className;
+    }
+
 
 
 
