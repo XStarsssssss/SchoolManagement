@@ -126,12 +126,17 @@ public class StudentService {
     }
 
     public static void showStudentLoginResponse(Student s) {
+        System.out.println("---------------------------");
+        System.out.println();
         System.out.println("Login successful!");
+        System.out.println();
+        System.out.println("---------------------------");
         System.out.println("username name - " + s.getName());
         System.out.println("age - " + s.getage());
         System.out.println("Grade - " + s.getGrade());
         System.out.print("Subject - ");
         System.out.println(String.join(" , ", s.getSubjects()));
+        System.out.println("---------------------------");
         System.out.println();
     }
 

@@ -11,12 +11,12 @@ public class Setting {
 
     // Age
     public static boolean validAge(int age) {
-        return age >= 6 && age == 18;
+        return age >= 6 && age <= 18;
     }
 
     // Grade
     public static boolean validGrade(int grade) {
-        return grade >= 1 && grade == 12;
+        return grade >= 1 && grade <= 12;
     }
 
     // Mail
