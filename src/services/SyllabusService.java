@@ -37,7 +37,7 @@ public class SyllabusService{
         }
         Syllabus sy = new Syllabus(FakeDatabase.syllabusIdCounter++, teacher.getId(), className, subject, title, description);
         FakeDatabase.syllabuses.add(sy);
-        System.out.println("✔ Syllabus Added: " + sy + "\n");
+        System.out.println(" Syllabus Added: " + sy + "\n");
         showSyllablesByTeacher(teacher.getId());
         return true;
     }

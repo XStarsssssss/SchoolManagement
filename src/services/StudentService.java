@@ -114,12 +114,26 @@ public class StudentService {
             subs.add("Science");
             subs.add("History");
             subs.add("Geography");
+            subs.add("ICT");
+            subs.add("Drawing");
+            subs.add("Music");
+            subs.add("Guitar");
+            subs.add("Piano");
+            subs.add("English  4 skill");
+
         } else { // 10-12
             subs.add("Myanmar");
             subs.add("English");
             subs.add("Mathematics");
             subs.add("Chemistry");
             subs.add("Physical");
+            subs.add("ICT");
+            subs.add("Coding");
+            subs.add("Drawing");
+            subs.add("Music");
+            subs.add("Guitar");
+            subs.add("Piano");
+            subs.add("English  4 skill");
 
         }
         return subs;

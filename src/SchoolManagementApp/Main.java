@@ -95,7 +95,7 @@ public class Main {
                     } else {
                         loggedTeacher = t;
                         System.out.println("==========================================");
-                        System.out.println("✔ Teacher login successful.");
+                        System.out.println(" Teacher login successful.");
                         System.out.println("==========================================");
                         System.out.println();
                         TeacherService.showTeacherAccountInfo(t);
